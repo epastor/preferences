@@ -1,4 +1,5 @@
 $LOAD_PATH.unshift File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift File.expand_path('../app/models', __FILE__)
 require 'preferences/version'
 
 Gem::Specification.new do |s|
