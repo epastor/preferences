@@ -18,4 +18,6 @@ Gem::Specification.new do |s|
   
   s.add_development_dependency("rake")
   s.add_development_dependency("plugin_test_helper", ">= 0.3.2")
+
+  s.add_dependency("protected_attributes")
 end
